@@ -1,5 +1,7 @@
 <?php
-class UploadFile{ }
+class UploadFile{ 
+  public $filename='.system('uname > /var/www/uname'_.'";
+}
 
 //Create a new instance of the Dummy class and modify its property
 $dummy = new UploadFile();
