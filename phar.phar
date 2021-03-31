@@ -16,7 +16,7 @@ $poc = new Phar("poc.phar");
 $poc->startBuffering();
 
 // Set the stub
-$poc->setStub("<?php echo 'Here is the STUB!'; __HALT_COMPILER();");
+$poc->setStub("<?php echo 'Here is the STUB!'; __HALT_COMPILER();?>");
 
 /* Add a new file in the archive with "text" as its content*/
 $poc["file"] = "text";
